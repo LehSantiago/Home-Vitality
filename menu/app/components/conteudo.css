@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home{
+    font-family: "Jost", sans-serif;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vitality, .img-bem-vindo {
+    flex: 1 1 50%; /* Definindo 50% da largura para cada elemento */
+    box-sizing: border-box; /* Garantindo que a largura inclua as bordas e o preenchimento */
+    padding: 10px; /* Adicionando preenchimento */
+}
+
+.explore, .desejamos {
+    flex: 1 1 100%; /* Definindo 100% da largura para cada elemento */
+    box-sizing: border-box; /* Garantindo que a largura inclua as bordas e o preenchimento */
+    padding: 10px; /* Adicionando preenchimento */
+}
+.texto-bemvindo{
+    font-size: 45pt;
+    font-weight: bold;
+}
+.texto-bemvindo2{
+    font-size: 25pt;
+}
+.obj {
+    width: 425px;
+    height: 45px;
+    background-color:#0B2676 ;
+    font-size: 20pt;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+

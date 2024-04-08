@@ -1,0 +1,100 @@
+header {
+    background-color: #113293;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .corpo {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #grupo {
+    width: calc(50% - 5px); /* 50% do espaço disponível menos a margem entre os inputs */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Fundo branco */
+    float: left;
+  }
+  
+  .p-corpo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-corpo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-corpo button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    /* Estilos adicionais para telas menores */
+    .container {
+      padding: 10px;
+    }
+  
+    input[type="text"],
+    textarea {
+      margin-bottom: 5px;
+    }
+  
+    button {
+      margin-top: 5px;
+    }
+  
+    .btn-group button {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para as imagens */
+  img.img1,
+  img.img2,
+  img.img3,
+  img.img4 {
+    margin-left: 10px; /* Espaço entre as imagens */
+  }
+  
